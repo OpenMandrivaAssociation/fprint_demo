@@ -7,6 +7,7 @@ Source: http://prdownloads.sourceforge.net/fprint/fprint_demo-0.4.tar.bz2
 BuildRequires: libfprint-devel
 BuildRequires: libgtk+2.0-devel
 Group: System/Configuration/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 fprint_demo is a simple GTK+ application to demonstrate and test libfprint's
