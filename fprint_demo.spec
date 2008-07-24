@@ -1,6 +1,6 @@
 Name: fprint_demo
 Version: 0.4
-Release: %mkrel 2
+Release: %mkrel 4
 Summary: Simple GTK+ application to demonstrate and test libfprint's capabilities
 License: GPL
 Source: http://prdownloads.sourceforge.net/fprint/fprint_demo-0.4.tar.bz2
