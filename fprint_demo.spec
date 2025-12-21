@@ -4,6 +4,11 @@ Release: %mkrel 5
 Summary: Simple GTK+ application to demonstrate and test libfprint's capabilities
 License: GPL
 Source: http://prdownloads.sourceforge.net/fprint/fprint_demo-0.4.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libfprint-devel
 BuildRequires: libgtk+2.0-devel
 Group: System/Configuration/Other
